@@ -1,4 +1,5 @@
-# Arquitetura Hexagonal 🔷
+# Introdução a Arquitetura Hexagonal 🔷
+[Link para Treino Completo](https://handora.zup.com.br/treino-completo/atividades/55)
 
 A Arquitetura Hexagonal, ou Ports and Adapters, isola o código de domínio do restante da aplicação, proporcionando flexibilidade, testabilidade e manutenibilidade.
 
@@ -19,14 +20,14 @@ A Arquitetura Hexagonal, ou Ports and Adapters, isola o código de domínio do r
 <img src="https://github.com/thaisbbreder-zup/bancoDigital/assets/133882082/f4919695-e502-44ae-a5c2-7b3eea029bb8"  height="200">
 <img src="https://github.com/thaisbbreder-zup/bancoDigital/assets/133882082/ba97e47d-a7c7-407d-ad72-c0ba6c55c1bc"  height="200">
 
-### 1. Centro do Hexágono:
+### 1. Centro:
    - Modelos, domínios e regras de negócios.
    - Totalmente isolado de ocorrências externas,  por exemplo, o banco de dados que será utilizado, framework frontend.
 
-### 2. Lado Esquerdo do Hexágono:
+### 2. Lado Esquerdo:
    - Ator principal, lado do usuário que conduz a ação, lado do usuário que realiza alguma tarefa.
 
-### 3. Lado Direito do Hexágono:
+### 3. Lado Direito:
    - Ator secundário, lado dos dados conduzido, seja para escrever dados, ler dados, modificar dados, e apagar dados.
 
 ### 4. Portas e Adaptadores:
